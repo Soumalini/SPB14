@@ -24,7 +24,6 @@ public class HomePOM {
 		this.user_icon.click(); 
 		 Actions actions = new Actions(driver);
 		 WebElement menuOption = driver.findElement(By.xpath("//div[@id='Menu_Wmt3OMY3']/nav/ul/li[2]/a"));
-		// WebElement menuOption = driver.findElement(By.cssSelector(".tb_hovered > a"));
 		 actions.moveToElement(menuOption).perform();
 	}
 		
