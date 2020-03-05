@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Sample test Suite" duration-ms="33282" started-at="2020-03-04T18:06:18Z" finished-at="2020-03-04T18:06:51Z">
+  <suite name="Sample test Suite" duration-ms="46323" started-at="2020-03-05T13:00:25Z" finished-at="2020-03-05T13:01:12Z">
     <groups>
     </groups>
-    <test name="Sample test" duration-ms="33282" started-at="2020-03-04T18:06:18Z" finished-at="2020-03-04T18:06:51Z">
-      <class name="com.training.sanity.tests.MyAccountTests">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.MyAccountTests@5c7fa833]" name="setUpBeforeClass" is-config="true" duration-ms="12" started-at="2020-03-04T23:36:18Z" finished-at="2020-03-04T23:36:18Z">
+    <test name="Sample test" duration-ms="46323" started-at="2020-03-05T13:00:25Z" finished-at="2020-03-05T13:01:12Z">
+      <class name="com.training.sanity.tests.AddToCartTest">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.AddToCartTest@5c7fa833]" name="setUpBeforeClass" is-config="true" duration-ms="16" started-at="2020-03-05T18:30:25Z" finished-at="2020-03-05T18:30:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.MyAccountTests@5c7fa833]" name="setUp" is-config="true" duration-ms="18736" started-at="2020-03-04T23:36:18Z" finished-at="2020-03-04T23:36:37Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.AddToCartTest@5c7fa833]" name="setUp" is-config="true" duration-ms="22023" started-at="2020-03-05T18:30:25Z" finished-at="2020-03-05T18:30:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validChangePasswordTest()[pri:0, instance:com.training.sanity.tests.MyAccountTests@5c7fa833]" name="validChangePasswordTest" duration-ms="12607" started-at="2020-03-04T23:36:37Z" finished-at="2020-03-04T23:36:49Z">
+        <test-method status="PASS" signature="productAddedToCartTest()[pri:0, instance:com.training.sanity.tests.AddToCartTest@5c7fa833]" name="productAddedToCartTest" duration-ms="22228" started-at="2020-03-05T18:30:47Z" finished-at="2020-03-05T18:31:10Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validChangePasswordTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.MyAccountTests@5c7fa833]" name="tearDown" is-config="true" duration-ms="1907" started-at="2020-03-04T23:36:49Z" finished-at="2020-03-04T23:36:51Z">
+        </test-method> <!-- productAddedToCartTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.AddToCartTest@5c7fa833]" name="tearDown" is-config="true" duration-ms="2019" started-at="2020-03-05T18:31:10Z" finished-at="2020-03-05T18:31:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.MyAccountTests -->
+      </class> <!-- com.training.sanity.tests.AddToCartTest -->
     </test> <!-- Sample test -->
   </suite> <!-- Sample test Suite -->
 </testng-results>
