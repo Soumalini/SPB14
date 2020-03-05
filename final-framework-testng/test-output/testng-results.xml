@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Sample test Suite" duration-ms="34695" started-at="2020-03-04T18:00:13Z" finished-at="2020-03-04T18:00:47Z">
+  <suite name="Sample test Suite" duration-ms="33282" started-at="2020-03-04T18:06:18Z" finished-at="2020-03-04T18:06:51Z">
     <groups>
     </groups>
-    <test name="Sample test" duration-ms="34695" started-at="2020-03-04T18:00:13Z" finished-at="2020-03-04T18:00:47Z">
+    <test name="Sample test" duration-ms="33282" started-at="2020-03-04T18:06:18Z" finished-at="2020-03-04T18:06:51Z">
       <class name="com.training.sanity.tests.MyAccountTests">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.MyAccountTests@5c7fa833]" name="setUpBeforeClass" is-config="true" duration-ms="10" started-at="2020-03-04T23:30:13Z" finished-at="2020-03-04T23:30:13Z">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.MyAccountTests@5c7fa833]" name="setUpBeforeClass" is-config="true" duration-ms="12" started-at="2020-03-04T23:36:18Z" finished-at="2020-03-04T23:36:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.MyAccountTests@5c7fa833]" name="setUp" is-config="true" duration-ms="17579" started-at="2020-03-04T23:30:13Z" finished-at="2020-03-04T23:30:30Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.MyAccountTests@5c7fa833]" name="setUp" is-config="true" duration-ms="18736" started-at="2020-03-04T23:36:18Z" finished-at="2020-03-04T23:36:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validChangePasswordTest()[pri:0, instance:com.training.sanity.tests.MyAccountTests@5c7fa833]" name="validChangePasswordTest" duration-ms="15201" started-at="2020-03-04T23:30:30Z" finished-at="2020-03-04T23:30:45Z">
+        <test-method status="PASS" signature="validChangePasswordTest()[pri:0, instance:com.training.sanity.tests.MyAccountTests@5c7fa833]" name="validChangePasswordTest" duration-ms="12607" started-at="2020-03-04T23:36:37Z" finished-at="2020-03-04T23:36:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validChangePasswordTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.MyAccountTests@5c7fa833]" name="tearDown" is-config="true" duration-ms="1880" started-at="2020-03-04T23:30:45Z" finished-at="2020-03-04T23:30:47Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.MyAccountTests@5c7fa833]" name="tearDown" is-config="true" duration-ms="1907" started-at="2020-03-04T23:36:49Z" finished-at="2020-03-04T23:36:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
