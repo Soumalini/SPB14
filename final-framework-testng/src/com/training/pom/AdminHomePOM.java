@@ -28,7 +28,36 @@ public class AdminHomePOM {
 	private WebElement clickTrash;
 
 
+	@FindBy(xpath="//a[@class='btn btn-primary']")
+	private WebElement addNewCategory;
 
+	@FindBy(id="input-name1")
+	private WebElement categoryName;
+
+	@FindBy(xpath="//div[@class='note-editable panel-body']")
+	private WebElement categoryDescription;
+	
+	@FindBy(id="input-meta-title1")
+	private WebElement metaTagTitle;
+	
+	@FindBy(id="input-meta-description1")
+	private WebElement metaTagDesc;
+	
+	@FindBy(id="input-meta-keyword1")
+	private WebElement metaTagkeyword;
+	
+	@FindBy(xpath="//a[contains(text(),'Data')]")
+	private WebElement dataTab;
+	
+	@FindBy(xpath="//a[contains(text(),'Design')]")
+	private WebElement designTab;
+	
+	@FindBy(xpath="//button[@class='btn btn-primary']")
+	private WebElement saveCategory;
+	
+	@FindBy(xpath="//a[contains(text(),'General')]")
+	private WebElement generalTab;
+	
 
 	public void clickCatalog_icon() {
 		this.catalog_icon.click(); 
@@ -38,6 +67,8 @@ public class AdminHomePOM {
 		this.catagories.click();
 
 	}
+	
+	
 	public void selectCheckBox() {
 		Select sel=new Select(driver.findElement(By.name("selected[]"))); 
 		sel.selectByVisibleText("INDIAN");
@@ -46,6 +77,46 @@ public class AdminHomePOM {
 		this.clickTrash.click();
 		Alert alert=driver.switchTo().alert();
 		alert.accept();
+	}
+	
+	public void addNewCategory() {
+		this.addNewCategory.click();
+	}
+	
+	public void categoryName(String categoryName) {
+		this.categoryName.sendKeys(categoryName); 
+
+	}
+	public void categoryDescription(String categoryDescription) {
+		this.categoryDescription.sendKeys(categoryDescription); 
+
+	}
+	public void metaTagTitle(String metaTagTitle) {
+		this.metaTagTitle.sendKeys(metaTagTitle); 
+
+	}
+
+	public void metaTagDesc(String metaTagDesc) {
+		this.metaTagDesc.sendKeys(metaTagDesc); 
+
+	}
+
+	public void metaTagkeyword(String metaTagkeyword) {
+		this.metaTagkeyword.sendKeys(metaTagkeyword); 
+
+	}
+	public void dataTab() {
+		this.dataTab.click();
+	}
+	
+	public void designTab() {
+		this.designTab.click();
+	}
+	public void generalTab() {
+		this.generalTab.click();
+	}
+	public void saveCategory() {
+		this.saveCategory.click();
 	}
 	
 

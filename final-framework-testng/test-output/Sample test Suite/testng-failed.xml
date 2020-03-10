@@ -3,14 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Sample test Suite]">
   <test name="Sample test(failed)">
     <classes>
-      <class name="com.training.sanity.tests.AdminLoginTest">
+      <class name="com.training.sanity.tests.AdminAddNewCategory">
         <methods>
+          <include name="addNewCategoryTest"/>
+          <include name="setUp"/>
           <include name="tearDown"/>
           <include name="setUpBeforeClass"/>
-          <include name="deleteCategoryTest"/>
-          <include name="setUp"/>
         </methods>
-      </class> <!-- com.training.sanity.tests.AdminLoginTest -->
+      </class> <!-- com.training.sanity.tests.AdminAddNewCategory -->
     </classes>
   </test> <!-- Sample test(failed) -->
 </suite> <!-- Failed suite [Sample test Suite] -->
