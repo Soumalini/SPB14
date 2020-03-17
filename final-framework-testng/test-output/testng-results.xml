@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Sample test Suite" duration-ms="24722" started-at="2020-03-10T11:39:51Z" finished-at="2020-03-10T11:40:16Z">
+  <suite name="Sample test Suite" duration-ms="24996" started-at="2020-03-17T11:11:59Z" finished-at="2020-03-17T11:12:24Z">
     <groups>
     </groups>
-    <test name="Sample test" duration-ms="24722" started-at="2020-03-10T11:39:51Z" finished-at="2020-03-10T11:40:16Z">
+    <test name="Sample test" duration-ms="24996" started-at="2020-03-17T11:11:59Z" finished-at="2020-03-17T11:12:24Z">
       <class name="com.training.sanity.tests.AdminAddNewCategory">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.AdminAddNewCategory@5c7fa833]" name="setUpBeforeClass" is-config="true" duration-ms="22" started-at="2020-03-10T17:09:51Z" finished-at="2020-03-10T17:09:52Z">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.AdminAddNewCategory@5c7fa833]" name="setUpBeforeClass" is-config="true" duration-ms="10" started-at="2020-03-17T16:41:59Z" finished-at="2020-03-17T16:41:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.AdminAddNewCategory@5c7fa833]" name="setUp" is-config="true" duration-ms="17172" started-at="2020-03-10T17:09:52Z" finished-at="2020-03-10T17:10:09Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.AdminAddNewCategory@5c7fa833]" name="setUp" is-config="true" duration-ms="17760" started-at="2020-03-17T16:41:59Z" finished-at="2020-03-17T16:42:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="addNewCategoryTest()[pri:1, instance:com.training.sanity.tests.AdminAddNewCategory@5c7fa833]" name="addNewCategoryTest" duration-ms="5697" started-at="2020-03-10T17:10:09Z" finished-at="2020-03-10T17:10:14Z">
+        <test-method status="PASS" signature="addNewCategoryTest()[pri:1, instance:com.training.sanity.tests.AdminAddNewCategory@5c7fa833]" name="addNewCategoryTest" duration-ms="5378" started-at="2020-03-17T16:42:17Z" finished-at="2020-03-17T16:42:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewCategoryTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.AdminAddNewCategory@5c7fa833]" name="tearDown" is-config="true" duration-ms="1795" started-at="2020-03-10T17:10:14Z" finished-at="2020-03-10T17:10:16Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.AdminAddNewCategory@5c7fa833]" name="tearDown" is-config="true" duration-ms="1824" started-at="2020-03-17T16:42:22Z" finished-at="2020-03-17T16:42:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -1,5 +1,7 @@
 package com.training.pom;
 
+import java.util.List;
+
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -58,8 +60,21 @@ public class AdminHomePOM {
 	@FindBy(xpath="//a[contains(text(),'General')]")
 	private WebElement generalTab;
 	
+	@FindBy(xpath="//a[@class='btn btn-primary']")
+	private WebElement editButton;
+	
+	@FindBy(xpath="//a[@class='desc']")
+	private WebElement categoryNameList;
+//	
+//	@FindBy(xpath="//li[@id='menu-catalog']//ul//li//a[contains(text(),'Recurring Profiles')]")
+//	private WebElement recurringProfiles;
 
-	public void clickCatalog_icon() {
+	@FindBy(xpath="//*[@id='content']/div[2]/div/div[2]/div/div[1]/ul/li[5]/span") ////*[@id="content"]/div[2]/div/div[2]/div/div[1]/ul/li[5]/span
+	private WebElement clickTab;
+	
+	
+
+	public void clickCatalogicon() {
 		this.catalog_icon.click(); 
 	}
 
@@ -92,11 +107,13 @@ public class AdminHomePOM {
 
 	}
 	public void metaTagTitle(String metaTagTitle) {
+		this.metaTagTitle.clear();
 		this.metaTagTitle.sendKeys(metaTagTitle); 
 
 	}
 
 	public void metaTagDesc(String metaTagDesc) {
+		this.metaTagTitle.clear();
 		this.metaTagDesc.sendKeys(metaTagDesc); 
 
 	}
@@ -118,6 +135,32 @@ public class AdminHomePOM {
 	public void saveCategory() {
 		this.saveCategory.click();
 	}
+	
+	public void verifyProductPresent() {
+		String Verifytext= driver.findElement(By.xpath("//li[@id='menu-catalog']//ul//li//a[contains(text(),'Products')]")).getText();
+		Assert.assertEquals(Verifytext, "Products");
+
+
+	}
+	public void verifyRecurringProfilesPresent() {
+		String Verifytext= driver.findElement(By.xpath("//li[@id='menu-catalog']//ul//li//a[contains(text(),'Recurring Profiles')]")).getText();
+		Assert.assertEquals(Verifytext, "Recurring Profiles");
+	}
+
+	public void editButton() {
+		this.editButton.click();
+	}
+	public void verifySuccess() {
+
+		String Verifytext=driver.findElement(By.xpath("//div[@class='alert alert-success']")).getText();
+		Assert.assertTrue(Verifytext.contains("Success: You have modified categories!"));
+		System.out.println("success");
+
+	}
+	public void ClickTab() {
+		this.clickTab.click();
+	}
+
 	
 
 

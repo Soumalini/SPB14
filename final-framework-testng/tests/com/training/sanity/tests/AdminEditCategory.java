@@ -20,7 +20,7 @@ import com.training.pom.LoginPOM;
 import com.training.utility.DriverFactory;
 import com.training.utility.DriverNames;
 
-public class AdminLoginTest {
+public class AdminEditCategory {
 
 	private WebDriver driver;
 	private String baseUrl;
@@ -66,11 +66,23 @@ public class AdminLoginTest {
 
 	}
 	@Test(priority=1)
-	public void deleteCategoryTest() throws InterruptedException {
+	public void editCategoryTest() throws InterruptedException {
 		
 		adminHomePOM.clickCatalogicon();
+		adminHomePOM.verifyProductPresent();
+		adminHomePOM.verifyRecurringProfilesPresent();
 		adminHomePOM.clickCatagories();
-		adminHomePOM.clickTrashButton();
-		screenShot.captureScreenShot("DeleteCategory");
+		adminHomePOM.editButton();
+		adminHomePOM.metaTagTitle("ORNAMENTS");	
+		adminHomePOM.metaTagDesc("ornaments for ladies");
+		adminHomePOM.dataTab();
+		adminHomePOM.designTab();
+	    adminHomePOM.generalTab();
+	    adminHomePOM.categoryName("ORNAMENTS");
+		adminHomePOM.metaTagTitle("ORNAMENTS");	
+	    adminHomePOM.saveCategory();
+	    adminHomePOM.verifySuccess();
+	    screenShot.captureScreenShot("SaveEditCategory");
+				
 	}
 }

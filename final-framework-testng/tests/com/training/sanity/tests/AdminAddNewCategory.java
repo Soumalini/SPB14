@@ -68,7 +68,7 @@ public class AdminAddNewCategory {
 	@Test(priority=1)
 	public void addNewCategoryTest() throws InterruptedException {
 		
-		adminHomePOM.clickCatalog_icon();
+		adminHomePOM.clickCatalogicon();
 		adminHomePOM.clickCatagories();
 		adminHomePOM.addNewCategory();
 		screenShot.captureScreenShot("AddNewCategory");
@@ -81,7 +81,7 @@ public class AdminAddNewCategory {
 		adminHomePOM.designTab();
 		adminHomePOM.generalTab();
 		adminHomePOM.saveCategory();
-		screenShot.captureScreenShot("SaveNewCategory");
+	  	screenShot.captureScreenShot("SaveNewCategory");
 
 		
 	}
