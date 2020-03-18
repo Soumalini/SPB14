@@ -22,7 +22,7 @@ import com.training.utility.DriverNames;
 public class LoginExcelTest {
 	private WebDriver driver;
 	private String baseUrl;
-	private LoginPOM loginPOM;
+	private com.training.pom.AdminLoginPOM AdminLoginPOM;
 	private static Properties properties;
 	private ScreenShot screenShot;
 
@@ -36,8 +36,8 @@ public class LoginExcelTest {
 	@BeforeMethod
 	public void setUp() throws Exception {
 		driver = DriverFactory.getDriver(DriverNames.CHROME);
-		loginPOM = new LoginPOM(driver);
-		baseUrl = properties.getProperty("baseURL");
+		AdminLoginPOM = new com.training.pom.AdminLoginPOM(driver);
+		baseUrl = properties.getProperty("adminURL");
 		screenShot = new ScreenShot(driver);
 		// open the browser
 		driver.get(baseUrl);
@@ -48,13 +48,14 @@ public class LoginExcelTest {
 		driver.quit();
 	}
 
-	@Test(dataProvider = "excel-inputs", dataProviderClass = LoginDataProviders.class)
-	public void loginDBTest(String userName, String password) {
-		loginPOM.sendUserName(userName);
-		loginPOM.sendPassword(password);
-		loginPOM.clickLoginBtn();
-		screenShot.captureScreenShot(userName);
-
+	@Test(dataProvider = "loginData", dataProviderClass = LoginDataProviders.class)
+	public void loginDBTest(String InvalidLogin,String userName, String password) {
+		
+		AdminLoginPOM.sendUserName(userName);
+		AdminLoginPOM.sendPassword(password);
+		AdminLoginPOM.clickLoginBtn();
+		screenShot.captureScreenShot(InvalidLogin);
+		
 	}
 
 }
