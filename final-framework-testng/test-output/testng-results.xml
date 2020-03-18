@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Sample test Suite" duration-ms="78090" started-at="2020-03-18T05:47:04Z" finished-at="2020-03-18T05:48:22Z">
+  <suite name="Sample test Suite" duration-ms="76701" started-at="2020-03-18T06:03:02Z" finished-at="2020-03-18T06:04:19Z">
     <groups>
     </groups>
-    <test name="Sample test" duration-ms="78090" started-at="2020-03-18T05:47:04Z" finished-at="2020-03-18T05:48:22Z">
+    <test name="Sample test" duration-ms="76701" started-at="2020-03-18T06:03:02Z" finished-at="2020-03-18T06:04:19Z">
       <class name="com.training.regression.tests.LoginExcelTest">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.regression.tests.LoginExcelTest@39aeed2f]" name="setUpBeforeClass" is-config="true" duration-ms="17" started-at="2020-03-18T11:17:04Z" finished-at="2020-03-18T11:17:04Z">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.regression.tests.LoginExcelTest@39aeed2f]" name="setUpBeforeClass" is-config="true" duration-ms="14" started-at="2020-03-18T11:33:02Z" finished-at="2020-03-18T11:33:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.LoginExcelTest@39aeed2f]" name="setUp" is-config="true" duration-ms="14555" started-at="2020-03-18T11:17:05Z" finished-at="2020-03-18T11:17:20Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.LoginExcelTest@39aeed2f]" name="setUp" is-config="true" duration-ms="13654" started-at="2020-03-18T11:33:03Z" finished-at="2020-03-18T11:33:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginDBTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.LoginExcelTest@39aeed2f]" name="loginDBTest" duration-ms="1555" started-at="2020-03-18T11:17:20Z" data-provider="loginData" finished-at="2020-03-18T11:17:21Z">
+        <test-method status="PASS" signature="loginDBTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.LoginExcelTest@39aeed2f]" name="loginDBTest" duration-ms="1651" started-at="2020-03-18T11:33:16Z" data-provider="loginData" finished-at="2020-03-18T11:33:18Z">
           <params>
             <param index="0">
               <value>
@@ -36,15 +36,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDBTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.LoginExcelTest@39aeed2f]" name="tearDown" is-config="true" duration-ms="885" started-at="2020-03-18T11:17:21Z" finished-at="2020-03-18T11:17:22Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.LoginExcelTest@39aeed2f]" name="tearDown" is-config="true" duration-ms="873" started-at="2020-03-18T11:33:18Z" finished-at="2020-03-18T11:33:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.LoginExcelTest@39aeed2f]" name="setUp" is-config="true" duration-ms="12415" started-at="2020-03-18T11:17:22Z" finished-at="2020-03-18T11:17:35Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.LoginExcelTest@39aeed2f]" name="setUp" is-config="true" duration-ms="12013" started-at="2020-03-18T11:33:19Z" finished-at="2020-03-18T11:33:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginDBTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.LoginExcelTest@39aeed2f]" name="loginDBTest" duration-ms="1634" started-at="2020-03-18T11:17:35Z" data-provider="loginData" finished-at="2020-03-18T11:17:36Z">
+        <test-method status="PASS" signature="loginDBTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.LoginExcelTest@39aeed2f]" name="loginDBTest" duration-ms="1647" started-at="2020-03-18T11:33:31Z" data-provider="loginData" finished-at="2020-03-18T11:33:33Z">
           <params>
             <param index="0">
               <value>
@@ -65,15 +65,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDBTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.LoginExcelTest@39aeed2f]" name="tearDown" is-config="true" duration-ms="891" started-at="2020-03-18T11:17:36Z" finished-at="2020-03-18T11:17:37Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.LoginExcelTest@39aeed2f]" name="tearDown" is-config="true" duration-ms="780" started-at="2020-03-18T11:33:33Z" finished-at="2020-03-18T11:33:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.LoginExcelTest@39aeed2f]" name="setUp" is-config="true" duration-ms="12264" started-at="2020-03-18T11:17:37Z" finished-at="2020-03-18T11:17:49Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.LoginExcelTest@39aeed2f]" name="setUp" is-config="true" duration-ms="12670" started-at="2020-03-18T11:33:33Z" finished-at="2020-03-18T11:33:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginDBTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.LoginExcelTest@39aeed2f]" name="loginDBTest" duration-ms="1635" started-at="2020-03-18T11:17:49Z" data-provider="loginData" finished-at="2020-03-18T11:17:51Z">
+        <test-method status="PASS" signature="loginDBTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.LoginExcelTest@39aeed2f]" name="loginDBTest" duration-ms="1539" started-at="2020-03-18T11:33:46Z" data-provider="loginData" finished-at="2020-03-18T11:33:48Z">
           <params>
             <param index="0">
               <value>
@@ -94,15 +94,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDBTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.LoginExcelTest@39aeed2f]" name="tearDown" is-config="true" duration-ms="1451" started-at="2020-03-18T11:17:51Z" finished-at="2020-03-18T11:17:52Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.LoginExcelTest@39aeed2f]" name="tearDown" is-config="true" duration-ms="738" started-at="2020-03-18T11:33:48Z" finished-at="2020-03-18T11:33:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.LoginExcelTest@39aeed2f]" name="setUp" is-config="true" duration-ms="12115" started-at="2020-03-18T11:17:52Z" finished-at="2020-03-18T11:18:05Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.LoginExcelTest@39aeed2f]" name="setUp" is-config="true" duration-ms="12230" started-at="2020-03-18T11:33:48Z" finished-at="2020-03-18T11:34:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginDBTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.LoginExcelTest@39aeed2f]" name="loginDBTest" duration-ms="1483" started-at="2020-03-18T11:18:05Z" data-provider="loginData" finished-at="2020-03-18T11:18:06Z">
+        <test-method status="PASS" signature="loginDBTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.LoginExcelTest@39aeed2f]" name="loginDBTest" duration-ms="1646" started-at="2020-03-18T11:34:01Z" data-provider="loginData" finished-at="2020-03-18T11:34:02Z">
           <params>
             <param index="0">
               <value>
@@ -123,15 +123,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDBTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.LoginExcelTest@39aeed2f]" name="tearDown" is-config="true" duration-ms="861" started-at="2020-03-18T11:18:06Z" finished-at="2020-03-18T11:18:07Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.LoginExcelTest@39aeed2f]" name="tearDown" is-config="true" duration-ms="1757" started-at="2020-03-18T11:34:02Z" finished-at="2020-03-18T11:34:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.LoginExcelTest@39aeed2f]" name="setUp" is-config="true" duration-ms="12730" started-at="2020-03-18T11:18:07Z" finished-at="2020-03-18T11:18:20Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.LoginExcelTest@39aeed2f]" name="setUp" is-config="true" duration-ms="12321" started-at="2020-03-18T11:34:04Z" finished-at="2020-03-18T11:34:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginDBTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.LoginExcelTest@39aeed2f]" name="loginDBTest" duration-ms="1728" started-at="2020-03-18T11:18:20Z" data-provider="loginData" finished-at="2020-03-18T11:18:21Z">
+        <test-method status="PASS" signature="loginDBTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.LoginExcelTest@39aeed2f]" name="loginDBTest" duration-ms="1575" started-at="2020-03-18T11:34:16Z" data-provider="loginData" finished-at="2020-03-18T11:34:18Z">
           <params>
             <param index="0">
               <value>
@@ -152,7 +152,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDBTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.LoginExcelTest@39aeed2f]" name="tearDown" is-config="true" duration-ms="940" started-at="2020-03-18T11:18:21Z" finished-at="2020-03-18T11:18:22Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.LoginExcelTest@39aeed2f]" name="tearDown" is-config="true" duration-ms="869" started-at="2020-03-18T11:34:18Z" finished-at="2020-03-18T11:34:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
