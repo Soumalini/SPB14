@@ -72,6 +72,37 @@ public class AdminHomePOM {
 	@FindBy(xpath="//*[@id='content']/div[2]/div/div[2]/div/div[1]/ul/li[5]/span") ////*[@id="content"]/div[2]/div/div[2]/div/div[1]/ul/li[5]/span
 	private WebElement clickTab;
 	
+	@FindBy(xpath="//a[contains(text(),'Products')]")
+	private WebElement products;
+	
+	
+	@FindBy(id="input-name")
+	private WebElement productName;
+	
+	
+	@FindBy(id="input-price")
+	private WebElement productPrice;
+	
+	
+	@FindBy(id="input-status")
+	private WebElement productStatus;
+	
+	
+	@FindBy(id="input-model")
+	private WebElement productModel;
+	
+	
+	@FindBy(id="input-quantity")
+	private WebElement productQuantity;
+	
+	
+	@FindBy(id="input-image")
+	private WebElement productImage;
+	
+	
+	@FindBy(id="button-filter")
+	private WebElement filter;
+	
 	
 
 	public void clickCatalogicon() {
@@ -160,8 +191,56 @@ public class AdminHomePOM {
 	public void ClickTab() {
 		this.clickTab.click();
 	}
+	
+	public void clickProducts() {
+		this.products.click();
+
+	}
+	
+	public void productName(String productName) {
+		this.productName.clear();
+		this.productName.sendKeys(productName); 
+
+	}
+	public void productPrice(String productPrice) {
+		this.productPrice.clear();
+		this.productPrice.sendKeys(productPrice); 
+
+	}
+	public void productStatus(String productStatus) {
+		
+		Select sel=new Select(driver.findElement(By.name("filter_status"))); 
+		sel.selectByVisibleText(productStatus);
+		//if(productPrice=515 && productImage='Enabled')
+		
+
+	}
+	public void productModel(String productModel) {
+		this.productModel.clear();
+		this.productModel.sendKeys(productModel); 
+
+	}
+	public void productQuantity(String productQuantity) {
+		//this.productQuantity.clear();
+		this.productQuantity.sendKeys(productQuantity); 
+
+	}
+	public void productImage(String productImage) {
+		//this.productImage.clear();
+		Select sel=new Select(driver.findElement(By.name("filter_image"))); 
+		sel.selectByVisibleText("Enabled");
+		this.productImage.sendKeys(productImage); 
+
+	}
+	
+	public void filter() {
+		this.filter.click();
+	}
+	public void verifyProductName() {
+		String Verifytext= driver.findElement(By.xpath("//*[@id='form-product']/div/table/tbody/tr[1]/td[3]")).getText();
+		Assert.assertEquals(Verifytext, productName);
+		
+	}
 
 	
-
-
 }

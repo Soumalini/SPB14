@@ -1,162 +1,179 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Sample test Suite" duration-ms="76701" started-at="2020-03-18T06:03:02Z" finished-at="2020-03-18T06:04:19Z">
+  <suite name="Sample test Suite" duration-ms="518014" started-at="2020-03-23T15:24:24Z" finished-at="2020-03-23T15:33:02Z">
     <groups>
     </groups>
-    <test name="Sample test" duration-ms="76701" started-at="2020-03-18T06:03:02Z" finished-at="2020-03-18T06:04:19Z">
-      <class name="com.training.regression.tests.LoginExcelTest">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.regression.tests.LoginExcelTest@39aeed2f]" name="setUpBeforeClass" is-config="true" duration-ms="14" started-at="2020-03-18T11:33:02Z" finished-at="2020-03-18T11:33:02Z">
+    <test name="Sample test" duration-ms="518014" started-at="2020-03-23T15:24:24Z" finished-at="2020-03-23T15:33:02Z">
+      <class name="com.training.regression.tests.ProductDetailsTest">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.regression.tests.ProductDetailsTest@39aeed2f]" name="setUpBeforeClass" is-config="true" duration-ms="4" started-at="2020-03-23T20:54:24Z" finished-at="2020-03-23T20:54:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.LoginExcelTest@39aeed2f]" name="setUp" is-config="true" duration-ms="13654" started-at="2020-03-18T11:33:03Z" finished-at="2020-03-18T11:33:16Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.ProductDetailsTest@39aeed2f]" name="setUp" is-config="true" duration-ms="15472" started-at="2020-03-23T20:54:25Z" finished-at="2020-03-23T20:54:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginDBTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.LoginExcelTest@39aeed2f]" name="loginDBTest" duration-ms="1651" started-at="2020-03-18T11:33:16Z" data-provider="loginData" finished-at="2020-03-18T11:33:18Z">
+        <test-method status="PASS" signature="productDeatilsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.ProductDetailsTest@39aeed2f]" name="productDeatilsTest" duration-ms="239935" started-at="2020-03-23T20:54:40Z" data-provider="ProductDetailsData" finished-at="2020-03-23T20:58:40Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[InvalidLogin]]>
+                <![CDATA[Integer vitae iaculis massa]]>
               </value>
             </param>
             <param index="1">
-              <value>
-                <![CDATA[Username]]>
-              </value>
+              <value is-null="true"/>
             </param>
             <param index="2">
               <value>
-                <![CDATA[Password]]>
+                <![CDATA[Enabled]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Enabled]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginDBTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.LoginExcelTest@39aeed2f]" name="tearDown" is-config="true" duration-ms="873" started-at="2020-03-18T11:33:18Z" finished-at="2020-03-18T11:33:19Z">
+        </test-method> <!-- productDeatilsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.ProductDetailsTest@39aeed2f]" name="tearDown" is-config="true" duration-ms="805" started-at="2020-03-23T20:58:40Z" finished-at="2020-03-23T20:58:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.LoginExcelTest@39aeed2f]" name="setUp" is-config="true" duration-ms="12013" started-at="2020-03-18T11:33:19Z" finished-at="2020-03-18T11:33:31Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.ProductDetailsTest@39aeed2f]" name="setUp" is-config="true" duration-ms="95527" started-at="2020-03-23T20:58:41Z" finished-at="2020-03-23T21:00:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginDBTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.LoginExcelTest@39aeed2f]" name="loginDBTest" duration-ms="1647" started-at="2020-03-18T11:33:31Z" data-provider="loginData" finished-at="2020-03-18T11:33:33Z">
+        <test-method status="PASS" signature="productDeatilsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.ProductDetailsTest@39aeed2f]" name="productDeatilsTest" duration-ms="11530" started-at="2020-03-23T21:00:17Z" data-provider="ProductDetailsData" finished-at="2020-03-23T21:00:28Z">
           <params>
             <param index="0">
-              <value>
-                <![CDATA[Testdata1]]>
-              </value>
+              <value is-null="true"/>
             </param>
             <param index="1">
               <value>
-                <![CDATA[admin]]>
+                <![CDATA[515.0]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[123456.0]]>
+                <![CDATA[Enabled]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[SKU-003]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Disabled]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginDBTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.LoginExcelTest@39aeed2f]" name="tearDown" is-config="true" duration-ms="780" started-at="2020-03-18T11:33:33Z" finished-at="2020-03-18T11:33:33Z">
+        </test-method> <!-- productDeatilsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.ProductDetailsTest@39aeed2f]" name="tearDown" is-config="true" duration-ms="803" started-at="2020-03-23T21:00:28Z" finished-at="2020-03-23T21:00:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.LoginExcelTest@39aeed2f]" name="setUp" is-config="true" duration-ms="12670" started-at="2020-03-18T11:33:33Z" finished-at="2020-03-18T11:33:46Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.ProductDetailsTest@39aeed2f]" name="setUp" is-config="true" duration-ms="64329" started-at="2020-03-23T21:00:29Z" finished-at="2020-03-23T21:01:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginDBTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.LoginExcelTest@39aeed2f]" name="loginDBTest" duration-ms="1539" started-at="2020-03-18T11:33:46Z" data-provider="loginData" finished-at="2020-03-18T11:33:48Z">
+        <test-method status="PASS" signature="productDeatilsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.ProductDetailsTest@39aeed2f]" name="productDeatilsTest" duration-ms="9355" started-at="2020-03-23T21:01:33Z" data-provider="ProductDetailsData" finished-at="2020-03-23T21:01:43Z">
           <params>
             <param index="0">
-              <value>
-                <![CDATA[Testdata2]]>
-              </value>
+              <value is-null="true"/>
             </param>
             <param index="1">
               <value>
-                <![CDATA[admin]]>
+                <![CDATA[615.0]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[admin]]>
+                <![CDATA[Enabled]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[SKU-003]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Disabled]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginDBTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.LoginExcelTest@39aeed2f]" name="tearDown" is-config="true" duration-ms="738" started-at="2020-03-18T11:33:48Z" finished-at="2020-03-18T11:33:48Z">
+        </test-method> <!-- productDeatilsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.ProductDetailsTest@39aeed2f]" name="tearDown" is-config="true" duration-ms="788" started-at="2020-03-23T21:01:43Z" finished-at="2020-03-23T21:01:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.LoginExcelTest@39aeed2f]" name="setUp" is-config="true" duration-ms="12230" started-at="2020-03-18T11:33:48Z" finished-at="2020-03-18T11:34:01Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.ProductDetailsTest@39aeed2f]" name="setUp" is-config="true" duration-ms="61928" started-at="2020-03-23T21:01:43Z" finished-at="2020-03-23T21:02:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginDBTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.LoginExcelTest@39aeed2f]" name="loginDBTest" duration-ms="1646" started-at="2020-03-18T11:34:01Z" data-provider="loginData" finished-at="2020-03-18T11:34:02Z">
+        <test-method status="PASS" signature="productDeatilsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.ProductDetailsTest@39aeed2f]" name="productDeatilsTest" duration-ms="16063" started-at="2020-03-23T21:02:45Z" data-provider="ProductDetailsData" finished-at="2020-03-23T21:03:01Z">
           <params>
             <param index="0">
-              <value>
-                <![CDATA[Testdata3]]>
-              </value>
+              <value is-null="true"/>
             </param>
             <param index="1">
               <value>
-                <![CDATA[manzoor]]>
+                <![CDATA[615.0]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[admin@123]]>
+                <![CDATA[Disabled]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[SKU-003]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Disabled]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginDBTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.LoginExcelTest@39aeed2f]" name="tearDown" is-config="true" duration-ms="1757" started-at="2020-03-18T11:34:02Z" finished-at="2020-03-18T11:34:04Z">
+        </test-method> <!-- productDeatilsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.ProductDetailsTest@39aeed2f]" name="tearDown" is-config="true" duration-ms="870" started-at="2020-03-23T21:03:01Z" finished-at="2020-03-23T21:03:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.LoginExcelTest@39aeed2f]" name="setUp" is-config="true" duration-ms="12321" started-at="2020-03-18T11:34:04Z" finished-at="2020-03-18T11:34:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginDBTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.LoginExcelTest@39aeed2f]" name="loginDBTest" duration-ms="1575" started-at="2020-03-18T11:34:16Z" data-provider="loginData" finished-at="2020-03-18T11:34:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Testdata4]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin@123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[admin@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginDBTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.LoginExcelTest@39aeed2f]" name="tearDown" is-config="true" duration-ms="869" started-at="2020-03-18T11:34:18Z" finished-at="2020-03-18T11:34:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.training.regression.tests.LoginExcelTest -->
+      </class> <!-- com.training.regression.tests.ProductDetailsTest -->
     </test> <!-- Sample test -->
   </suite> <!-- Sample test Suite -->
 </testng-results>

@@ -35,18 +35,23 @@ public class ApachePOIExcelRead {
 			
 			int rowTotal = sheet.getLastRowNum();
 
-			if ((rowTotal > 0) || (sheet.getPhysicalNumberOfRows() > 0)) {
-			    rowTotal++;
-			}
-			
+			/*
+			 * if ((rowTotal > 0) || (sheet.getPhysicalNumberOfRows() > 0)) { rowTotal++; }
+			 * System.out.println("this is the problem   rowTotal++" +rowTotal);
+			 */
 			
 			// Iterate through each rows one by one
 			Iterator<Row> rowIterator = sheet.iterator();
-			 list1 = new String[rowTotal][2];
+			 list1 = new String[rowTotal][];
+			 
+			 //skipping the first row
+			 if(rowIterator.hasNext()) {
+				 rowIterator.next();
+			 }
 			 
 			while (rowIterator.hasNext()) {
 				Row row = rowIterator.next();
-				// For each row, iterate through all the columns
+				// For each roxw, iterate through all the columns
 				Iterator<Cell> cellIterator = row.cellIterator();
 
 				int cellCount = 0; 
@@ -71,20 +76,29 @@ public class ApachePOIExcelRead {
 							tempList1[cellCount] =cell.getStringCellValue();
 						}
 						break;
+					
+						
 					}
 					cellCount ++; 
 				}
 				if(tempList1 != null){
 					list1[rowCount++] = tempList1;
 				}
-			}
-		
+				System.out.println("temp_list"+tempList1);
+				System.out.println("list1"+list1);			}
+			System.out.println("=============end of while ================");
+
 			
 			file.close();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 
+		for(int i=0; i<list1.length;i++) {
+			for(int j=0; j<list1[i].length;j++) {
+				System.out.println("list["+i+"]"+"["+j+"] = " + list1[i][j]);
+			}
+		}
 		return list1;
 	}
 

@@ -9,8 +9,16 @@ import com.training.dao.ELearningDAO;
 import com.training.readexcel.ApachePOIExcelRead;
 import com.training.readexcel.ReadExcel;
 
-public class LoginDataProviders {
+/**
+ * This class reads data from different data sources
+ * @author SoumaliniBhattachary
+ *
+ */
+public class ProductDetailsDataProviders {
 
+	/*
+	 * This method read data from database
+	 */
 	@DataProvider(name = "db-inputs")
 	public Object [][] getDBData() {
 
@@ -42,11 +50,12 @@ public class LoginDataProviders {
 		return new ReadExcel().getExcelData("C:/Users/Naveen/Desktop/Testing.xls", "Sheet1"); 
 	}
 	
-	
-	@DataProvider(name = "loginData") public Object[][] loginData(){ 
+	@DataProvider(name = "ProductDetailsData") 
+	public Object[][] productDetailsData(){ 
 
-		String fileName="C:/Users/SoumaliniBhattachary/Documents/DataProvider/Testdata.xlsx";
+		String fileName="C:/Users/SoumaliniBhattachary/Documents/DataProvider/Book4.xlsx";
 		return new ApachePOIExcelRead().getExcelContent(fileName);
 	}
-
+	
+	
 }
