@@ -19,14 +19,16 @@ import com.training.generics.ScreenShot;
 import com.training.pom.AdminHomePOM;
 import com.training.pom.AdminLoginPOM;
 import com.training.pom.LoginPOM;
+import com.training.pom.ProductPOM;
 import com.training.utility.DriverFactory;
 import com.training.utility.DriverNames;
 
-public class ProductDetailsTest {
+public class AddMultipleProductDetailsTest {
 	private WebDriver driver;
 	private String baseUrl;
 	private AdminLoginPOM adminLoginPOM;
 	private AdminHomePOM adminHomePOM;
+	private ProductPOM productPOM;
 	private static Properties properties;
 	private ScreenShot screenShot;
 
@@ -43,7 +45,7 @@ public class ProductDetailsTest {
 
 		adminLoginPOM = new AdminLoginPOM(driver); 
 		adminHomePOM=new AdminHomePOM(driver);
-
+		productPOM=new ProductPOM(driver);
 		baseUrl = properties.getProperty("adminURL");
 		screenShot = new ScreenShot(driver);
 		// open the browser
@@ -65,33 +67,50 @@ public class ProductDetailsTest {
 	}
 
 
-	@Test(dataProvider = "ProductDetailsData", dataProviderClass = ProductDetailsDataProviders.class)
-	public void productDeatilsTest(String productName, String productPrice,String productStatus,String productModel,String productQuantity,String productImage) throws InterruptedException {
+	@Test(dataProvider = "AddValidProductDetails", dataProviderClass = ProductDetailsDataProviders.class)
+	public void addMultipleProductDetailsTest(String productName, String metaTitle,String productModel,String productPrice,String productCategory) throws InterruptedException {
 
 		if(productName==null || productName.equalsIgnoreCase("null") || productName.equals("")) {
 			productName="";
+		}if(metaTitle==null || metaTitle.equalsIgnoreCase("null") || metaTitle.equals("")) {
+			metaTitle="";
 		}if(productPrice==null || productPrice.equalsIgnoreCase("null") || productPrice.equals("")) {
 			productPrice="";
-		}if(productQuantity==null || productQuantity.equalsIgnoreCase("null") || productQuantity.equals("")) {
-			productQuantity="";
 		}if(productModel==null || productModel.equalsIgnoreCase("null") || productModel.equals("")) {
 			productModel="";
 		}
+		if(productCategory==null || productCategory.equalsIgnoreCase("null") || productCategory.equals("")) {
+			productCategory="";
+		}
 		
-		System.out.println("product name= "+productName + "  productPrice="+productPrice+ "   productstatus="+productStatus);
+		//System.out.println("product name= "+productName + "  productPrice="+productPrice+ "   productstatus="+productStatus);
 		validLoginTest();
 		adminHomePOM.clickCatalogicon();
 
 		adminHomePOM.clickProducts();
-		adminHomePOM.productName(productName);
-		adminHomePOM.productPrice(productPrice);
-		adminHomePOM.filter();
-		adminHomePOM.productStatus(productStatus);
-		adminHomePOM.productModel(productModel);
-		adminHomePOM.productQuantity(productQuantity);
-		adminHomePOM.productImage(productImage);
-		adminHomePOM.filter();
-		screenShot.captureScreenShot("ProductDetails");
+		adminHomePOM.clickAddNewButton();
+		
+		productPOM.sendProductName(productName);
+		productPOM.metaTagTitle(metaTitle);
+		productPOM.clickOnDataTab();
+		productPOM.modelName(productModel);
+		productPOM.price(productPrice);
+		productPOM.quantity("1");
+		productPOM.clickOnlinksTab();
+		productPOM.categories(productCategory);
+		Thread.sleep(1000);
+		productPOM.clickOnAttributeTab();
+		productPOM.clickOnOptionTab();
+		productPOM.clickOnRecurringTabTab();
+		productPOM.clickOnDiscountTab();
+		productPOM.clickOnSpecialTab();
+		productPOM.clickOnImageTab();
+		productPOM.clickOnRewardPointsTab();
+		productPOM.clickOndesignTab();
+		productPOM.saveIcon();
+		productPOM.verifySuccess();
+
+		screenShot.captureScreenShot("MultipleProductDetails");
 
 	}
 

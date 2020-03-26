@@ -104,6 +104,10 @@ public class AdminHomePOM {
 	private WebElement filter;
 	
 	
+	@FindBy(xpath="//div[@class='pull-right']//a[@class='btn btn-primary']")
+	private WebElement AddnewButton;
+	
+	
 
 	public void clickCatalogicon() {
 		this.catalog_icon.click(); 
@@ -240,6 +244,11 @@ public class AdminHomePOM {
 		String Verifytext= driver.findElement(By.xpath("//*[@id='form-product']/div/table/tbody/tr[1]/td[3]")).getText();
 		Assert.assertEquals(Verifytext, productName);
 		
+	}
+	
+	public void clickAddNewButton() {
+		this.AddnewButton.click();
+
 	}
 
 	

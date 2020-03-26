@@ -94,11 +94,10 @@ public class ApachePOIExcelRead {
 			e.printStackTrace();
 		}
 
-		for(int i=0; i<list1.length;i++) {
-			for(int j=0; j<list1[i].length;j++) {
-				System.out.println("list["+i+"]"+"["+j+"] = " + list1[i][j]);
-			}
-		}
+		/*
+		 * for(int i=0; i<list1.length;i++) { for(int j=0; j<list1[i].length;j++) {
+		 * System.out.println("list["+i+"]"+"["+j+"] = " + list1[i][j]); } }
+		 */
 		return list1;
 	}
 

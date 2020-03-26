@@ -57,5 +57,13 @@ public class ProductDetailsDataProviders {
 		return new ApachePOIExcelRead().getExcelContent(fileName);
 	}
 	
+	@DataProvider(name = "AddValidProductDetails") 
+	public Object[][] validProductDeatilsData(){ 
+
+		String fileName="C:/Users/SoumaliniBhattachary/Documents/DataProvider/AddValidProductDetails.xlsx";
+		return new ApachePOIExcelRead().getExcelContent(fileName);
+	}
+	
+	
 	
 }

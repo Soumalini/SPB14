@@ -2,178 +2,172 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Sample test Suite" duration-ms="518014" started-at="2020-03-23T15:24:24Z" finished-at="2020-03-23T15:33:02Z">
+  <suite name="Sample test Suite" duration-ms="142906" started-at="2020-03-26T11:50:30Z" finished-at="2020-03-26T11:52:53Z">
     <groups>
     </groups>
-    <test name="Sample test" duration-ms="518014" started-at="2020-03-23T15:24:24Z" finished-at="2020-03-23T15:33:02Z">
-      <class name="com.training.regression.tests.ProductDetailsTest">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.regression.tests.ProductDetailsTest@39aeed2f]" name="setUpBeforeClass" is-config="true" duration-ms="4" started-at="2020-03-23T20:54:24Z" finished-at="2020-03-23T20:54:24Z">
+    <test name="Sample test" duration-ms="142906" started-at="2020-03-26T11:50:30Z" finished-at="2020-03-26T11:52:53Z">
+      <class name="com.training.regression.tests.AddMultipleProductDetailsTest">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.regression.tests.AddMultipleProductDetailsTest@39aeed2f]" name="setUpBeforeClass" is-config="true" duration-ms="10" started-at="2020-03-26T17:20:30Z" finished-at="2020-03-26T17:20:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.ProductDetailsTest@39aeed2f]" name="setUp" is-config="true" duration-ms="15472" started-at="2020-03-23T20:54:25Z" finished-at="2020-03-23T20:54:40Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.AddMultipleProductDetailsTest@39aeed2f]" name="setUp" is-config="true" duration-ms="18189" started-at="2020-03-26T17:20:31Z" finished-at="2020-03-26T17:20:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="productDeatilsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.ProductDetailsTest@39aeed2f]" name="productDeatilsTest" duration-ms="239935" started-at="2020-03-23T20:54:40Z" data-provider="ProductDetailsData" finished-at="2020-03-23T20:58:40Z">
+        <test-method status="PASS" signature="addMultipleProductDetailsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.AddMultipleProductDetailsTest@39aeed2f]" name="addMultipleProductDetailsTest" duration-ms="20394" started-at="2020-03-26T17:20:49Z" data-provider="AddValidProductDetails" finished-at="2020-03-26T17:21:10Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Integer vitae iaculis massa]]>
+                <![CDATA[Samsung]]>
               </value>
             </param>
             <param index="1">
-              <value is-null="true"/>
-            </param>
-            <param index="2">
               <value>
-                <![CDATA[Enabled]]>
-              </value>
-            </param>
-            <param index="3">
-              <value is-null="true"/>
-            </param>
-            <param index="4">
-              <value is-null="true"/>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Enabled]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- productDeatilsTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.ProductDetailsTest@39aeed2f]" name="tearDown" is-config="true" duration-ms="805" started-at="2020-03-23T20:58:40Z" finished-at="2020-03-23T20:58:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.ProductDetailsTest@39aeed2f]" name="setUp" is-config="true" duration-ms="95527" started-at="2020-03-23T20:58:41Z" finished-at="2020-03-23T21:00:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="productDeatilsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.ProductDetailsTest@39aeed2f]" name="productDeatilsTest" duration-ms="11530" started-at="2020-03-23T21:00:17Z" data-provider="ProductDetailsData" finished-at="2020-03-23T21:00:28Z">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[515.0]]>
+                <![CDATA[Samsung]]>
               </value>
             </param>
             <param index="2">
-              <value>
-                <![CDATA[Enabled]]>
-              </value>
-            </param>
-            <param index="3">
               <value>
                 <![CDATA[SKU-003]]>
               </value>
             </param>
-            <param index="4">
-              <value is-null="true"/>
-            </param>
-            <param index="5">
+            <param index="3">
               <value>
-                <![CDATA[Disabled]]>
+                <![CDATA[20000.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[TV]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- productDeatilsTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.ProductDetailsTest@39aeed2f]" name="tearDown" is-config="true" duration-ms="803" started-at="2020-03-23T21:00:28Z" finished-at="2020-03-23T21:00:29Z">
+        </test-method> <!-- addMultipleProductDetailsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.AddMultipleProductDetailsTest@39aeed2f]" name="tearDown" is-config="true" duration-ms="948" started-at="2020-03-26T17:21:10Z" finished-at="2020-03-26T17:21:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.ProductDetailsTest@39aeed2f]" name="setUp" is-config="true" duration-ms="64329" started-at="2020-03-23T21:00:29Z" finished-at="2020-03-23T21:01:33Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.AddMultipleProductDetailsTest@39aeed2f]" name="setUp" is-config="true" duration-ms="14092" started-at="2020-03-26T17:21:11Z" finished-at="2020-03-26T17:21:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="productDeatilsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.ProductDetailsTest@39aeed2f]" name="productDeatilsTest" duration-ms="9355" started-at="2020-03-23T21:01:33Z" data-provider="ProductDetailsData" finished-at="2020-03-23T21:01:43Z">
+        <test-method status="PASS" signature="addMultipleProductDetailsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.AddMultipleProductDetailsTest@39aeed2f]" name="addMultipleProductDetailsTest" duration-ms="15711" started-at="2020-03-26T17:21:25Z" data-provider="AddValidProductDetails" finished-at="2020-03-26T17:21:40Z">
           <params>
             <param index="0">
-              <value is-null="true"/>
+              <value>
+                <![CDATA[Onida]]>
+              </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[615.0]]>
+                <![CDATA[Onida]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[Enabled]]>
+                <![CDATA[SKU-003]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[SKU-003]]>
+                <![CDATA[18000.0]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[5.0]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Disabled]]>
+                <![CDATA[TV]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- productDeatilsTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.ProductDetailsTest@39aeed2f]" name="tearDown" is-config="true" duration-ms="788" started-at="2020-03-23T21:01:43Z" finished-at="2020-03-23T21:01:43Z">
+        </test-method> <!-- addMultipleProductDetailsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.AddMultipleProductDetailsTest@39aeed2f]" name="tearDown" is-config="true" duration-ms="853" started-at="2020-03-26T17:21:40Z" finished-at="2020-03-26T17:21:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.ProductDetailsTest@39aeed2f]" name="setUp" is-config="true" duration-ms="61928" started-at="2020-03-23T21:01:43Z" finished-at="2020-03-23T21:02:45Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.AddMultipleProductDetailsTest@39aeed2f]" name="setUp" is-config="true" duration-ms="15413" started-at="2020-03-26T17:21:41Z" finished-at="2020-03-26T17:21:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="productDeatilsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.ProductDetailsTest@39aeed2f]" name="productDeatilsTest" duration-ms="16063" started-at="2020-03-23T21:02:45Z" data-provider="ProductDetailsData" finished-at="2020-03-23T21:03:01Z">
+        <test-method status="PASS" signature="addMultipleProductDetailsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.AddMultipleProductDetailsTest@39aeed2f]" name="addMultipleProductDetailsTest" duration-ms="14495" started-at="2020-03-26T17:21:57Z" data-provider="AddValidProductDetails" finished-at="2020-03-26T17:22:11Z">
           <params>
             <param index="0">
-              <value is-null="true"/>
+              <value>
+                <![CDATA[Bat]]>
+              </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[615.0]]>
+                <![CDATA[Cricket Bat]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[Disabled]]>
+                <![CDATA[SKU-003]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[SKU-003]]>
+                <![CDATA[12000.0]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[5.0]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Disabled]]>
+                <![CDATA[Sports]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- productDeatilsTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.ProductDetailsTest@39aeed2f]" name="tearDown" is-config="true" duration-ms="870" started-at="2020-03-23T21:03:01Z" finished-at="2020-03-23T21:03:02Z">
+        </test-method> <!-- addMultipleProductDetailsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.AddMultipleProductDetailsTest@39aeed2f]" name="tearDown" is-config="true" duration-ms="749" started-at="2020-03-26T17:22:11Z" finished-at="2020-03-26T17:22:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.training.regression.tests.ProductDetailsTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.AddMultipleProductDetailsTest@39aeed2f]" name="setUp" is-config="true" duration-ms="24747" started-at="2020-03-26T17:22:12Z" finished-at="2020-03-26T17:22:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addMultipleProductDetailsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.AddMultipleProductDetailsTest@39aeed2f]" name="addMultipleProductDetailsTest" duration-ms="15914" started-at="2020-03-26T17:22:37Z" data-provider="AddValidProductDetails" finished-at="2020-03-26T17:22:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Asus]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Asus Zenfone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SKU-003]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7000.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Electronic]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMultipleProductDetailsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.AddMultipleProductDetailsTest@39aeed2f]" name="tearDown" is-config="true" duration-ms="719" started-at="2020-03-26T17:22:53Z" finished-at="2020-03-26T17:22:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.training.regression.tests.AddMultipleProductDetailsTest -->
     </test> <!-- Sample test -->
   </suite> <!-- Sample test Suite -->
 </testng-results>
