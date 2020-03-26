@@ -63,6 +63,13 @@ public class ProductDetailsDataProviders {
 		String fileName="C:/Users/SoumaliniBhattachary/Documents/DataProvider/AddValidProductDetails.xlsx";
 		return new ApachePOIExcelRead().getExcelContent(fileName);
 	}
+	@DataProvider(name = "AddInvalidProductDetails") 
+	public Object[][] invalidProductDeatilsData(){ 
+
+		String fileName="C:/Users/SoumaliniBhattachary/Documents/DataProvider/AddInvalidproductdetails.xlsx";
+		return new ApachePOIExcelRead().getExcelContent(fileName);
+	}
+	
 	
 	
 	

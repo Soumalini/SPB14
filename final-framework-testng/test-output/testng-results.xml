@@ -2,59 +2,49 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Sample test Suite" duration-ms="142906" started-at="2020-03-26T11:50:30Z" finished-at="2020-03-26T11:52:53Z">
+  <suite name="Sample test Suite" duration-ms="115425" started-at="2020-03-26T12:54:35Z" finished-at="2020-03-26T12:56:31Z">
     <groups>
     </groups>
-    <test name="Sample test" duration-ms="142906" started-at="2020-03-26T11:50:30Z" finished-at="2020-03-26T11:52:53Z">
-      <class name="com.training.regression.tests.AddMultipleProductDetailsTest">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.regression.tests.AddMultipleProductDetailsTest@39aeed2f]" name="setUpBeforeClass" is-config="true" duration-ms="10" started-at="2020-03-26T17:20:30Z" finished-at="2020-03-26T17:20:30Z">
+    <test name="Sample test" duration-ms="115425" started-at="2020-03-26T12:54:35Z" finished-at="2020-03-26T12:56:31Z">
+      <class name="com.training.regression.tests.AddInvalidProductDetailsTest">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.regression.tests.AddInvalidProductDetailsTest@39aeed2f]" name="setUpBeforeClass" is-config="true" duration-ms="16" started-at="2020-03-26T18:24:35Z" finished-at="2020-03-26T18:24:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.AddMultipleProductDetailsTest@39aeed2f]" name="setUp" is-config="true" duration-ms="18189" started-at="2020-03-26T17:20:31Z" finished-at="2020-03-26T17:20:49Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.AddInvalidProductDetailsTest@39aeed2f]" name="setUp" is-config="true" duration-ms="16606" started-at="2020-03-26T18:24:36Z" finished-at="2020-03-26T18:24:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="addMultipleProductDetailsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.AddMultipleProductDetailsTest@39aeed2f]" name="addMultipleProductDetailsTest" duration-ms="20394" started-at="2020-03-26T17:20:49Z" data-provider="AddValidProductDetails" finished-at="2020-03-26T17:21:10Z">
+        <test-method status="PASS" signature="addMultipleProductDetailsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.AddInvalidProductDetailsTest@39aeed2f]" name="addMultipleProductDetailsTest" duration-ms="14416" started-at="2020-03-26T18:24:52Z" data-provider="AddInvalidProductDetails" finished-at="2020-03-26T18:25:07Z">
           <params>
             <param index="0">
-              <value>
-                <![CDATA[Samsung]]>
-              </value>
+              <value is-null="true"/>
             </param>
             <param index="1">
-              <value>
-                <![CDATA[Samsung]]>
-              </value>
+              <value is-null="true"/>
             </param>
             <param index="2">
-              <value>
-                <![CDATA[SKU-003]]>
-              </value>
+              <value is-null="true"/>
             </param>
             <param index="3">
-              <value>
-                <![CDATA[20000.0]]>
-              </value>
+              <value is-null="true"/>
             </param>
             <param index="4">
-              <value>
-                <![CDATA[TV]]>
-              </value>
+              <value is-null="true"/>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addMultipleProductDetailsTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.AddMultipleProductDetailsTest@39aeed2f]" name="tearDown" is-config="true" duration-ms="948" started-at="2020-03-26T17:21:10Z" finished-at="2020-03-26T17:21:11Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.AddInvalidProductDetailsTest@39aeed2f]" name="tearDown" is-config="true" duration-ms="950" started-at="2020-03-26T18:25:07Z" finished-at="2020-03-26T18:25:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.AddMultipleProductDetailsTest@39aeed2f]" name="setUp" is-config="true" duration-ms="14092" started-at="2020-03-26T17:21:11Z" finished-at="2020-03-26T17:21:25Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.AddInvalidProductDetailsTest@39aeed2f]" name="setUp" is-config="true" duration-ms="14069" started-at="2020-03-26T18:25:08Z" finished-at="2020-03-26T18:25:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="addMultipleProductDetailsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.AddMultipleProductDetailsTest@39aeed2f]" name="addMultipleProductDetailsTest" duration-ms="15711" started-at="2020-03-26T17:21:25Z" data-provider="AddValidProductDetails" finished-at="2020-03-26T17:21:40Z">
+        <test-method status="PASS" signature="addMultipleProductDetailsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.AddInvalidProductDetailsTest@39aeed2f]" name="addMultipleProductDetailsTest" duration-ms="12008" started-at="2020-03-26T18:25:22Z" data-provider="AddInvalidProductDetails" finished-at="2020-03-26T18:25:34Z">
           <params>
             <param index="0">
               <value>
@@ -62,38 +52,30 @@
               </value>
             </param>
             <param index="1">
-              <value>
-                <![CDATA[Onida]]>
-              </value>
+              <value is-null="true"/>
             </param>
             <param index="2">
-              <value>
-                <![CDATA[SKU-003]]>
-              </value>
+              <value is-null="true"/>
             </param>
             <param index="3">
-              <value>
-                <![CDATA[18000.0]]>
-              </value>
+              <value is-null="true"/>
             </param>
             <param index="4">
-              <value>
-                <![CDATA[TV]]>
-              </value>
+              <value is-null="true"/>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addMultipleProductDetailsTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.AddMultipleProductDetailsTest@39aeed2f]" name="tearDown" is-config="true" duration-ms="853" started-at="2020-03-26T17:21:40Z" finished-at="2020-03-26T17:21:41Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.AddInvalidProductDetailsTest@39aeed2f]" name="tearDown" is-config="true" duration-ms="853" started-at="2020-03-26T18:25:34Z" finished-at="2020-03-26T18:25:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.AddMultipleProductDetailsTest@39aeed2f]" name="setUp" is-config="true" duration-ms="15413" started-at="2020-03-26T17:21:41Z" finished-at="2020-03-26T17:21:57Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.AddInvalidProductDetailsTest@39aeed2f]" name="setUp" is-config="true" duration-ms="13554" started-at="2020-03-26T18:25:35Z" finished-at="2020-03-26T18:25:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="addMultipleProductDetailsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.AddMultipleProductDetailsTest@39aeed2f]" name="addMultipleProductDetailsTest" duration-ms="14495" started-at="2020-03-26T17:21:57Z" data-provider="AddValidProductDetails" finished-at="2020-03-26T17:22:11Z">
+        <test-method status="PASS" signature="addMultipleProductDetailsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.AddInvalidProductDetailsTest@39aeed2f]" name="addMultipleProductDetailsTest" duration-ms="13159" started-at="2020-03-26T18:25:48Z" data-provider="AddInvalidProductDetails" finished-at="2020-03-26T18:26:01Z">
           <params>
             <param index="0">
               <value>
@@ -106,37 +88,31 @@
               </value>
             </param>
             <param index="2">
-              <value>
-                <![CDATA[SKU-003]]>
-              </value>
+              <value is-null="true"/>
             </param>
             <param index="3">
-              <value>
-                <![CDATA[12000.0]]>
-              </value>
+              <value is-null="true"/>
             </param>
             <param index="4">
-              <value>
-                <![CDATA[Sports]]>
-              </value>
+              <value is-null="true"/>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addMultipleProductDetailsTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.AddMultipleProductDetailsTest@39aeed2f]" name="tearDown" is-config="true" duration-ms="749" started-at="2020-03-26T17:22:11Z" finished-at="2020-03-26T17:22:12Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.AddInvalidProductDetailsTest@39aeed2f]" name="tearDown" is-config="true" duration-ms="911" started-at="2020-03-26T18:26:01Z" finished-at="2020-03-26T18:26:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.AddMultipleProductDetailsTest@39aeed2f]" name="setUp" is-config="true" duration-ms="24747" started-at="2020-03-26T17:22:12Z" finished-at="2020-03-26T17:22:37Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.AddInvalidProductDetailsTest@39aeed2f]" name="setUp" is-config="true" duration-ms="14229" started-at="2020-03-26T18:26:02Z" finished-at="2020-03-26T18:26:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="addMultipleProductDetailsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.AddMultipleProductDetailsTest@39aeed2f]" name="addMultipleProductDetailsTest" duration-ms="15914" started-at="2020-03-26T17:22:37Z" data-provider="AddValidProductDetails" finished-at="2020-03-26T17:22:53Z">
+        <test-method status="PASS" signature="addMultipleProductDetailsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.AddInvalidProductDetailsTest@39aeed2f]" name="addMultipleProductDetailsTest" duration-ms="13138" started-at="2020-03-26T18:26:17Z" data-provider="AddInvalidProductDetails" finished-at="2020-03-26T18:26:30Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Asus]]>
+                <![CDATA[as]]>
               </value>
             </param>
             <param index="1">
@@ -163,11 +139,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addMultipleProductDetailsTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.AddMultipleProductDetailsTest@39aeed2f]" name="tearDown" is-config="true" duration-ms="719" started-at="2020-03-26T17:22:53Z" finished-at="2020-03-26T17:22:53Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.AddInvalidProductDetailsTest@39aeed2f]" name="tearDown" is-config="true" duration-ms="832" started-at="2020-03-26T18:26:30Z" finished-at="2020-03-26T18:26:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.training.regression.tests.AddMultipleProductDetailsTest -->
+      </class> <!-- com.training.regression.tests.AddInvalidProductDetailsTest -->
     </test> <!-- Sample test -->
   </suite> <!-- Sample test Suite -->
 </testng-results>

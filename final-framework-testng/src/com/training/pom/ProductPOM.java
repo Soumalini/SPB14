@@ -152,12 +152,13 @@ public class ProductPOM {
 		System.out.println("success");
 
 	}
+	public void verifyErrorText() {
+
+		String Verifytext=driver.findElement(By.xpath("//div[@class='alert alert-danger']")).getText();
+		Assert.assertTrue(Verifytext.contains("Warning: Please check the form carefully for errors!"));
+
+	}
 	
-   
-    public void verifyProdutDetails() {
-    	String productname=driver.findElement(By.xpath("//div[@class='cart-info tb_min_w_500']//a[contains(text(),'Integer vitae iaculis massa')]")).getText();
-		String actualname="Integer vitae iaculis massa";
-		Assert.assertEquals(actualname, productname);
-    }
+    
 	
 }
